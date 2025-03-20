@@ -101,9 +101,91 @@
     console.log(typeof(is_Learning))
     console.log(typeof(GG))
     console.log(typeof(R))
+
+    //operators
+        //1.Arithmetic operators  (perform calculations)
+        let a = 15;
+        let b = 3;
+        let c = 10
+        const sum = a + b;
+        const diff = a - b;
+        const prod = a * b; // multiplication
+        const div = a / b; // division
+        const mod =  c % b;  //% is for remainder
+        console.log(sum, diff, mod, div, prod);
+
+        //2. comparison operators
+            console.log(a ==b );   //loosly compare
+            console.log(a > b);    // greater than
+            console.log(a ===b);   //strict comparison
+            console.log(a < b);    //lesser than  
+            console.log(a <= b);
+            console.log(a != b);   // != checks if values are not equal
+            console.log(a !== b);  //strictly chechs for similarity
+
+
+        //3. logical operators
+            const d = 7, e= 2;
+            console.log(d && e );
+            console.log(a != b);   // != checks if values are not equal
+            console.log(a !== b);  //strictly chechs for similarity
+            console.log(d > 0 && e >0);
+            console.log(d >0 || e > 0);  // (||) is used as or
+
+        //4. assignment operators
+            a = 50;
+            console.log(a)
+        //5. conditional operators
+            //ternary operator
+            const Age = 18; 
+            const Status = Age >= 18 ? "Adult" : "Minor";
+            console.log(status);
+             /* condition ?expression1 : expression2;*/
+
+        //6 . bitwise operators
+        const res = 5&1 ; 
+        console.log(res);
+
+        //7. unary operator
+        let y = 10;
+        console.log(++y); //increment
+        console.log(--y); // decrement     (end of operators)
+
+        //string operations
+            //concatenation  -addition of strings
+            const $ = "  welcome"+ "" +"to javascript programing  ";
+            console.log($)
+
+        //string methods
+        let str2 = "welcome to javascript ";
+        let length = str2.length; //checks string length
+        console.log(length);
+
+        //extracting  character from a string
+        let ch = str2.charAt(20);
+        console.log(ch);
+        let cod = str2.charCodeAt(0);
+        console.log(cod);        
+
+        //capitalize
+        let cap = str2.toUpperCase();
+            console.log(cap);
+            let low = str2.toLowerCase();
+            console.logo(low);
+
+        //contact joins programs
+        let str3 = "javascript programing is fun";
+        let str4 = str2.contact("", str3);
+        console.logo(str4);
+
+        //trim remove whitespaces
+        let str5 = str4.trim();
+        console.logo(str5);
+
+
      </script>
 </head>
 <body>
-    
+
 </body>
-</html>
+</html> 
