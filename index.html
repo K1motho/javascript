@@ -171,17 +171,118 @@
         let cap = str2.toUpperCase();
             console.log(cap);
             let low = str2.toLowerCase();
-            console.logo(low);
+            console.log(low);
 
         //contact joins programs
         let str3 = "javascript programing is fun";
-        let str4 = str2.contact("", str3);
-        console.logo(str4);
+        let str4 = str2.concat("", "str3");
+        console.log(str4);
 
         //trim remove whitespaces
         let str5 = str4.trim();
-        console.logo(str5);
+        console.log(str5);
 
+
+        //startswith checks if a string starts with a given character
+        str3.startsWith("wel")
+        console.log(str3.startsWith("wel"));
+
+        //ends with
+        str2.endsWith("!");
+        console.log(str2.endsWith("!"));
+
+        //cheking for specific index of a given string or character
+        str2.indexOf("welcome");
+        console.log(str2.indexOf("welcome"));
+
+        //make changes of on a string
+        let quote = "we are enjoying javascript";
+        quote = quote.replace("javascript", "python");
+        console.log(quote);
+        quote = quote.replaceAll( "", "you are not enjoying the lesson");
+        console.log(quote);
+
+        //split method makes each character in a spring a a string on its own
+        const mystr = "split method used";
+        mystr.split("split method used");
+        console.log(mystr.split(""));
+
+         // reverse method causes string to be printed from last character to first
+        const reversedStr = mystr.split();
+        mystr.split().reverse("");
+        reversedStr.reverse();
+        console.log(reversedStr);  
+
+
+        //conditionals
+        // basic syntax
+       // if(expression) {/*action to be executed when expression is true*/}
+            let result;
+            let agE = 17;
+            if (agE >= 18) {
+                result = " person is eligible to drive"
+            }else(
+                result = "person is not eligible"
+            );
+            console.log(result);
+
+        result = "you are tall"
+        let Height = 180;
+        if ( Height >= 190) {
+            result= "you are tall"
+        }else {
+            result= "you are not tall"
+    };
+        console.log(result);
+
+        //else if
+        let resp ;
+        let book = "Historys"
+        if(book == "physics") {
+            result == "physics book found"
+        } else if ( book == "Mathematics") {
+            resp = "mathematics book found"
+        }else if ( book == "biology") {
+            resp = "biology book found"
+        }else if ( book == "python programing") {
+            resp = "python programing fouynd"
+        }else {
+            resp = "untitled book found"
+        }        
+        console.log(resp);
+
+        let Resp;
+        let bar = 10
+        if (bar >= 10) {
+            Resp = "uneable to drive"
+        }else if (bar == 9 ) {
+            Resp = "intoxicated"
+        }else if (bar<= 8) {
+            Resp = "can  fairly drive"
+        }else  {
+            Resp= "able to drive"
+        };
+        console.log(Resp);
+
+        //loops
+        //while loop  (executes for  as long as a condition is true)
+         /* while (condition) {
+                code to execute while condition is tre} */
+        let count = 0;
+        while (count < 10) {
+            count++
+        } 
+        console.log(count)
+        
+        // do while loop  
+        /*  do {
+                code to be executed        
+        }while (condition)*/
+        let Count = 0
+        do {Count++
+        }while (Count <8);
+        console.log(Count);
+            
 
      </script>
 </head>
